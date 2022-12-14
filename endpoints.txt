@@ -1,0 +1,32 @@
+Remover uma lista de funcionários:
+
+http://localhost:3000/funcionarios
+http://localhost:3000/funcionarios/:funcionarioId/conjuges/:conjugeId
+
+
+//Deletar em massa
+{
+    "id" : [5, 6]
+}
+
+
+Inclusão de vários funcionários:
+
+[
+    {
+    "nome": "Antônio Antônio",
+    "profissao": "Engenheiro",
+    "DTNascimento": "2000-01-01",
+    "DTContrato": "2018-07-20",
+    "estadoCivil": "Solteiro",
+    "possuiDepend": false
+    },
+    {
+        "nome": "Paulo Paulo",
+        "profissao": "Motorista",
+        "DTNascimento": "2000-01-01",
+        "DTContrato": "2018-07-20",
+        "estadoCivil": "Solteiro",
+        "possuiDepend": true
+    }
+]
